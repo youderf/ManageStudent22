@@ -1,0 +1,672 @@
+.resp{
+    width: 100%;
+}
+
+th{
+    color: darkblue;
+}
+/* --- CSS Table  --- */
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a {
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+/* ---   Footer --- */
+#container {
+    width: 100%;
+    height: 330px
+}
+
+#part1 {
+    width: 100%;
+    height: 280px;
+    background-color: #292929
+}
+
+#part2 {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: -15px
+}
+
+#companyinfo {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    left: 8%;
+    top: 30px
+}
+
+#sitelink {
+    font-size: 35px;
+    color: #f44336
+}
+
+#sitelink:hover {
+    color: #e65100
+}
+
+#title {
+    color: gray;
+    position: relative;
+    top: 0px;
+    font-size: 14.1px
+}
+
+#detail {
+    color: #aaa7a7;
+    font-size: 16px
+}
+
+#explore {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -235px;
+    left: 29%
+}
+
+#txt1,
+#txt2,
+#txt3,
+#txt4,
+#txt5 {
+    color: white;
+    font-size: 20px
+}
+
+.link {
+    display: flex;
+    width: 90px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    position: relative;
+    top: -10px
+}
+
+.link:hover,
+.link1:hover {
+    color: #e65100
+}
+
+#visit {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -515px;
+    left: 42%
+}
+
+.text {
+    color: #aaa7a7;
+    font-size: 14px;
+    margin-top: -10px
+}
+
+#legal {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -800px;
+    left: 59.5%
+}
+
+.link1 {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    position: relative;
+    top: -10px;
+    margin-top: 7px
+}
+
+#subscribe {
+    position: relative;
+    top: -1080px;
+    left: 78%;
+    width: 14%;
+    height: 280px
+}
+
+#email {
+    color: white;
+    position: relative;
+    top: -20px
+}
+
+.btn {
+    position: relative;
+    top: -10px
+}
+
+#txt5 {
+    position: relative;
+    top: 0px
+}
+
+.social {
+    position: relative;
+    top: -5px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer
+}
+
+.fa-facebook-square:hover {
+    color: #3B579D
+}
+
+.fa-linkedin:hover {
+    color: #007BB6
+}
+
+.fa-twitter-square:hover {
+    color: #2CAAE1
+}
+
+#txt6 {
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 8%;
+    width: 80%;
+    color: #aaa7a7;
+}
+
+.material-icons {
+    position: relative;
+    top: 3px
+}
+
+@media only screen and (max-width:1000px) {
+    #companyinfo {
+        width: 20%
+    }
+
+    #sitelink {
+        font-size: 30px
+    }
+
+    #txt5,
+    #txt4 {
+        font-size: 17px
+    }
+
+    #txt5,
+    .social {
+        position: relative;
+        top: -5px
+    }
+}
+
+@media only screen and (max-width:850px) {
+    #companyinfo {
+        position: relative;
+        left: 3%
+    }
+
+    #txt6 {
+        position: relative;
+        left: 3%
+    }
+
+    #txt1,
+    #txt2,
+    #txt3,
+    #txt4,
+    #txt5 {
+        font-size: 15px
+    }
+
+    #explore {
+        position: relative;
+        top: -240px;
+        left: 26%
+    }
+
+    #sitelink {
+        font-size: 25px
+    }
+
+    #detail {
+        font-size: 13px
+    }
+
+    .link {
+        width: 60px
+    }
+
+    #visit {
+        position: relative;
+        top: -520px;
+        left: 37%
+    }
+
+    .text {
+        font-size: 13px
+    }
+
+    #legal {
+        position: relative;
+        top: -800px;
+        left: 54%
+    }
+
+    #subscribe {
+        position: relative;
+        top: -1080px;
+        left: 76%;
+        width: 20%
+    }
+
+    #txt5,
+    .social {
+        position: relative;
+        left: -110%;
+        top: 10px;
+    }
+
+    #email,
+    .btn {
+        position: relative;
+        top: 0px;
+    }
+
+    #part1 {
+        height: 250px
+    }
+}
+
+
+
+.class1{
+	color: blue;
+	text-decoration: underline;
+
+}
+
+.class2{
+	color: green;
+	text-decoration: overline;
+
+}
+
+.lbl {
+    color: black;
+    width: 200px;
+    font-weight: bold;
+    background-color: #efefef;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 11px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+
+}
+
+td{
+
+    marging:5px;
+}
+
+/* Styled table  */
+.styled-table {
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    /*min-width: 400px;*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    float: left;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    height: 5px;
+}
+
+.styled-table th{
+    padding: 5px 5px;
+    color:#FFFFFF;
+    height: 5px;
+}
+.styled-table td {
+    padding: 5px 5px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Table wrapper ***************************
+********************************************/
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+   /* background: rgba( 71, 147, 227, 1);*/
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /*color: white;*/
+    padding: 30px 0;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 10px 20px 20px;
+
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    padding-left: 5px;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+    
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+        
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+
+/*****************************************
+  Menu design
+******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.sidebar{
+  position: relative;
+  width: 240px;
+  left: 20px;
+  height: 100%;
+  background: #1e1e1e;
+  transition: all .5s ease;
+}
+.sidebar header{
+  font-size: 28px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #1b1b1b;
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.sidebar a{
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: white;
+  line-height: 65px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-left: 5px solid transparent;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .5s ease;
+}
+a.active,a:hover{
+  border-left: 5px solid #b93632;
+  color: #b93632;
+}
+.sidebar a i{
+  font-size: 23px;
+  margin-right: 16px;
+}
+.sidebar a span{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #262626;
+  margin: 15px 30px;
+  font-size: 29px;
+  background: #262626;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  transition: all .5s ease;
+}
+label #cancel{
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  margin-left: 245px;
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ label #cancel{
+  margin-left: 245px;
+  opacity: 1;
+  visibility: visible;
+}
+@media(max-width : 860px){
+  .sidebar{
+    height: auto;
+    width: 70px;
+    left: 0;
+    margin: 100px 0;
+  }
+  header,#btn,#cancel{
+    display: none;
+  }
+  span{
+    position: absolute;
+    margin-left: 23px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .sidebar a{
+    height: 60px;
+  }
+  .sidebar a i{
+    margin-left: -10px;
+  }
+  a:hover {
+    width: 200px;
+    background: inherit;
+  }
+  .sidebar a:hover span{
+    opacity: 1;
+    visibility: visible;
+  }
+}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<!--  studentApp/student_confirm_delete.html  -->
+
+<h1>Delete Student</h1>
+<form method="post">{% csrf_token %}
+    Are you sure you want to delete "{{ object }}" ?
+    <input type="submit" value="Submit" />
+</form>
+{% endblock %}

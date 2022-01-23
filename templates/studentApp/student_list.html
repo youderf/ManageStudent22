@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Student List</h1>
+<a href="{% url 'student_new' %}">Create New Student</a><br><br>
+<div class="table-wrapper">
+<table class="fl-table" >
+<thead>
+    <tr>
+        <th>Name</th> <th>Email</th> <th>Phone</th> <th>Section</th> <th>Photo</th>
+        <th>Details</th> <th>Update</th> <th>Delete</th>
+    </tr>
+    </thead>
+    {% for student in object_list %}
+    <tr>
+        <td>{{ student.name }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.phone }}</td>
+        <td>{{ student.section }}</td>
+        <td><img src="/media/{{ student.photo }}" width="65" height = "75"/></td>
+        <td> <a class="btn btn-info" href="{% url 'student_detail' student.id %}">Detail</a></td>
+        <td><a class="btn btn-primary" href="{% url 'student_edit' student.id %}">Edit</a></td>
+        <td><a class="btn btn-danger"  href="{% url 'student_delete' student.id %}">Delete</a></td>
+    </tr>
+
+    {% endfor %}
+</table>
+</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+<!--  templates/studentApp/student_form.html   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Student Form</h1>
+<form enctype="multipart/form-data" method="POST">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td>{{ form.name }}</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td>{{ form.email }}</td>
+        </tr>
+        <tr>
+            <td>phone</td>
+            <td>:</td>
+            <td>{{ form.phone }}</td>
+        </tr>
+        <tr>
+            <td>Section</td>
+            <td>:</td>
+            <td>{{ form.section }}</td>
+        </tr>
+
+        <tr>
+            <td>Photo</td>
+            <td>:</td>
+            <td>{{ form.photo }}</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="Save"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+{% endblock %}
